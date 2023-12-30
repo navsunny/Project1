@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAVA</title>
+    <style>
+        .back {
+            background-image: url(back.jpg);
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+        }
+
+        .left:hover {
+            color: grey;
+        }
+
+        .img {
+            width: 36px;
+            height: 33px;
+            padding: 1px 6px;
+        }
+
+        .mid {
+            display: inline-block;
+            border: 2px solid rgb(9, 9, 9);
+            border-radius: 30px;
+            width: 490px;
+            margin: 3px 298px;
+            padding: 1px 3px 10px 3px;
+            background-color: rgb(9, 9, 9);
+        }
+
+        .li {
+            float: left;
+            list-style: none;
+            text-decoration: none;
+            padding: 3px 23px;
+        }
+
+        .li1 {
+            text-decoration: none;
+            color: white;
+        }
+
+        .li1:hover {
+            color: rgb(155, 155, 155);
+        }
+
+        .right {
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 30px;
+            display: inline-block;
+            float: right;
+            padding: 3px 6px;
+            margin: 16px 11px;
+            background-color: rgb(0, 0, 0);
+            position: relative;
+            top: -62px;
+        }
+        .btn{
+            background-color: black;
+            color: white;
+            border: 2px solid black;
+        }
+        .order{
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 30px;
+            width: 300px;
+            margin: 75px 94px;
+            padding: 82px 15px;
+        }
+        .dialog{
+            display: inline-block;
+            /* border: 2px solid black; */
+        }
+        .q{
+            text-align: center;
+            margin: 14px auto;
+        }
+        .h1{
+            text-align: center;
+            position: relative;
+            top: -36px;
+        }
+        .sub{
+            text-align: center;
+        }
+        .sub1{
+            padding: 3px 61px;
+            margin: 18px 3px;
+            border-radius: 10px;
+            color: white;
+            background-color: black;
+        }
+        .dialog{
+            margin: 10px 10px;
+            position: relative;
+            top: -99px;
+            right: -69px;
+        }
+        .dialog1{
+            text-align: center;
+            font-size: 60px;
+            font-family: 'Times New Roman';
+            font-weight: bolder;
+        }
+        .right:hover{
+            background-color: rgb(32, 32, 32);
+            color: rgb(155, 155, 155);
+        }
+        .btn:hover{
+            background-color: rgb(32, 32, 32);
+            color: rgb(155, 155, 155);
+        }
+        .dialog1:hover{
+            color: rgb(155, 155, 155);;
+        }
+    </style>
+</head>
+
+<body class="back">
+    <header class="header">
+        <div class="left"><img src="logo.png" class="img">FLAVA</div>
+        <div class="mid">
+            <ul class="ul">
+                <li class="li"><a href="#" class="li1">HOME</a></li>
+                <li class="li"><a href="#" class="li1">MODELS</a></li>
+                <li class="li"><a href="#" class="li1">CONTACT</a></li>
+                <li class="li"><a href="#" class="li1">ORDER</a></li>
+            </ul>
+        </div>
+        <div class="right"><button class="btn">feedback</button></div>
+    </header>
+        <div class="container">
+            <div class="order">
+                <h1 class="h1">ORDER NOW!</h1>
+                <form action="noaction.php">
+                    <div class="q"><input type="text" placeholder="Name"></div>
+                    <div class="q"><input type="number" placeholder="Phone"></div>
+                    <div class="q"><input type="tetx" placeholder="Address"></div>
+                    <div class="q"><input type="email" placeholder="Email"></div>
+                </form>
+                <div class="sub"><button class="sub1">SUBMIT</button></div>
+            </div>
+            <div class="dialog">
+                <p class="dialog1">FEEL THE FLAVA</p>
+            </div>
+        </div>
+</body>
+
+</html>
